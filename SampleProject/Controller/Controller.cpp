@@ -12,7 +12,7 @@ using namespace std;
 
 Controller :: Controller()
 {
-    
+  
 }
 
 void Controller :: start()
@@ -21,6 +21,21 @@ void Controller :: start()
     {
         cout << "This loop has executed " << index + 1 << " times" << endl;
     }
+    
+}
+void Controller :: Array()
+{
+    int Horray [] = {4, 3 ,5 ,79, 11};
+    int n, result=0;
+    
+    for ( n=0 ; n<5 ; ++n )
+    {
+        result += Horray[n];
+    }
+    cout << result << endl;
+  
+    
+    
 }
 
 

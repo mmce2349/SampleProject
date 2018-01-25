@@ -21,6 +21,7 @@ public:
     //Anyone can see this.
     Controller();
     void start();
+    void Array();
 };
 
 #endif /* Controller_hpp */
